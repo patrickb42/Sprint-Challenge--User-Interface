@@ -144,3 +144,97 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+/* INDEX.HTML */
+/* * {border: 1px solid red !important;} */
+
+
+
+
+
+header {
+    display: flex;
+    margin: 20px 0;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#index_banner {
+    margin: 20px 0;
+}
+
+#box1  {background-color: teal;}
+#box2  {background-color: gold;}
+#box3  {background-color: cadetblue;}
+#box4  {background-color: coral;}
+#box5  {background-color: crimson;}
+#box6  {background-color: forestgreen;}
+#box7  {background-color: darkorchid;}
+#box8  {background-color: hotpink;}
+#box9  {background-color: indigo;}
+#box10 {background-color: dodgerblue;}
+
+
+
+
+
+/* ABOUT.HTML */
+
+
+
+
+
+#about_banner {
+    margin: 20px 0;
+}
+#about_info {
+    width: 97%;
+    margin: 0 auto;
+}
+#deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    margin: 25px auto;
+}
+.card {
+    width: 48%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card p {
+    margin-bottom: 15px;
+}
+.card .learn_more {
+    background-color: white;
+    transition: 0.5s;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.card .learn_more:hover {
+    background-color: lightgray;
+}
+#conclusion {
+    padding-bottom: 35px;
+}
