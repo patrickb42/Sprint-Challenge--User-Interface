@@ -151,7 +151,7 @@ footer nav a {
 
 
 /* INDEX.HTML */
-* {border: 1px solid red !important;}
+/* * {border: 1px solid red !important;} */
 
 
 
@@ -197,6 +197,40 @@ nav a {
 
 
 
-#abotu_banner {
+#about_banner {
     margin: 20px 0;
+}
+#about_info {
+    width: 97%;
+    margin: 0 auto;
+}
+#deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    border-top: 1px dashed black;
+    margin: 25px auto;
+}
+.card {
+    width: 48%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card p {
+    margin-bottom: 15px;
+}
+.card .learn_more {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#conclusion {
+    padding: 10px 0 35px;
 }
